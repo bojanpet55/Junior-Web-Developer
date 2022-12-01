@@ -15,6 +15,31 @@ I Still decided to submit it because I am capable of solving the problems if I j
 
 I know You insured me there was no time limit, I felt necessary to upload it as soon as possible.
 
+INFO ABOUT FOLDERS:
+1. ../AboutPage -php files for my AboutPage
+2. ../AddProductPage - Three .php files
+	-connect.php - ACTIVE php code to for saving data to database from input fields from addProduct.php
+	-addProduct.php - ACTIVE main addProduct Page
+	-ProductCSS.css	- ACTIVE css for addProuct Page
+3. ../ContactPage - php files for my ContactPage
+4. ../includes - contains Images,Patterns,Downloaded content ect
+5. ..JavaScript - Three .js files
+	-AddZeroes.js - NOT ACTIVE js file to give the #price .00 at the end
+	-Change_Dropdown_Menu.js - NOT ACTIVE js file to hide dropDown menu in AddProduct_Page
+	-SideBar.js - Show side bar - ACTIVE HOME.NAV.BAR in AddProduct_Page for easy navigation
+6. ../OOP - NOT ACTIVE OOP files for the OOP concept, they are not connected.
+7. ../ProductDeletedPage - NOT ACTIVE .php page to be redirected to after you DELETE from Index.php (autotimer to go to index page after 3sek)
+8. ../ProductSubmittedPage - NOT ACTIVE .php page to be redirected to after you SUBMIT to DataBase from addProduct.php (autotimer)
+9. ./connectToDB.php - ACTIVE .php file with information about DATABASE,(AFTER publishing it to Online databse and website 
+									I did not use it 100% of the time)
+10. ./index.php - ACTIVE Main .php file
+11. ./IndexCSS.css - ACTIVE Main .css file connected to index.php
+12. ./MassDelete.php - ACTIVE Php file for .MASS_DELETE_BUTTON
+
+
+
+
+
 Thank you for your time.
 
 
