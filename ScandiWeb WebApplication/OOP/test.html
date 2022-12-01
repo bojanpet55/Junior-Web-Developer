@@ -1,0 +1,43 @@
+<script>
+  function showInput(e) {
+    e.preventDefault();
+    var output_info = document.getElementById("myform");
+    var display = document.getElementById("display");
+    var data = output_info.querySelectorAll("input:not([type=submit]), select");
+    for (var i = 0; i < data.length; i++) {
+      display.innerHTML += "name:" + data[i].name + " value:" + data[i].value + "<br>"
+    }
+  }
+</script>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <link rel="stylesheet" href="test.css">
+
+
+  <meta charset="UTF-8">
+  <title>Product type</title>
+  <script src="withdraw.php"></script>
+</head>
+
+<body>
+<form id="myform" role="form">
+  <label for="Name">Name:</label>
+  <input type="text" class="form-control" id="Name">
+  <div class="dropdown">
+    <label for="countries">Country:</label>
+    <select class="form-control" id="countries">
+      <option value="">Select a Country:</option>
+    </select>
+    <label for="states">State:</label>
+    <select class="form-control" id="states">
+      <option value="">Select a State</option>
+    </select>
+    <input type="submit" onclick="showInput();">
+</form>
+</div>
+<label> Your input:</label>
+<p><span id='display'>
+    </span></p>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<div class="horizontal_scroll">
+
+      <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"> < </button>
+      <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"> > </button>
+
+      <div class="story-container">
+        <div class="story-circle">
+          <?php
+
+          $sql= "SELECT * from items ;";
+
+          $result =mysqli_query($conn,$sql);
+
+          $resultCheck = mysqli_num_rows($result);
+
+
+          if(mysqli_num_rows($result)>0)
+          {
+            while ($row =mysqli_fetch_array($result))
+            {
+              ?>
+              <div class="product">
+                <div class="title"><?php echo $row[1]; ?><label>
+                    <input type="checkbox" name="checkbox" value="True" style="float: left; accent-color: orange; ">
+                  </label></div>
+                <div class="price"> <?php echo $row[2].".$" ?></div>
+                <div class="buy-button_div">
+                  <button class="buy-button">
+                    Buy now
+                  </button>
+                </div>
+              </div>
+
+              <?php
+            }
+          }
+          ?>
+        </div>
+      </div>
+
+    </div>

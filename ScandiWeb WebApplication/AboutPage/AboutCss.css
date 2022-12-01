@@ -1,0 +1,95 @@
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(250,164,3,0.8354692218684349) 0%, rgba(249,246,13,0.9279061966583508) 25%, rgba(247,255,44,1) 35%, rgba(255,251,132,1) 45%, rgba(255,251,132,1) 55%, rgba(247,255,44,1) 65%, rgba(249,246,13,1) 75%, rgba(250,164,3,1) 100%);
+
+}
+
+#blank{
+  background-color: white;
+  width: 70%;
+  height: 600px;
+  text-align: center;
+  margin-left: 18%;
+  margin-top: 50px;
+  border-width: 6px;
+  border-style: outset;
+  border-color: #ee9805;
+  border-radius: 25px;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/*__________________________________________________________TEXT ABOUT ME ___________________________________________________________________*/
+
+.title{
+  text-align: left;
+  font-size: 22px;
+}
+.info{
+  text-align: left;
+}
+.column1{
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.subTitle{
+  text-align: left;
+  font-size: 16px;
+}
+.miniTitle{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+.column2{
+  text-align: left;
+
+  padding-left: 100px;
+}
+.footer{
+  font-weight: bold;
+}
+/* Designing for scroll-bar */
+
+/*____________________________________________________________________________________________________________________________________________________*/
+
+
+
+/*_____________________________contact,about,home____________________________________________________________________`*/
+* {box-sizing: border-box;}
+.topnav {
+  font-family: 'Garamond', "Times New Roman", sans-serif;
+  overflow: hidden;
+}
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  margin-right: 10px;
+
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+/*____________________________________________________________________________________________________________________`*/
+
+/*______________________________________________Lines on screen_______________________________________*/
+.top{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+

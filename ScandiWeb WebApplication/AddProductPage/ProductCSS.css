@@ -1,0 +1,302 @@
+body {
+  font-family: 'Garamond', "Times New Roman", sans-serif;
+  background-image: url("../includes/images/shoppingcart-1066110386.png");
+  background-size: 100% 100%;
+  animation: gradient 10s ease infinite;
+  height: 85vh;
+  jsutify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+#\#sku,#\#price,#\#name,#\#weight,#\#height,#\#width,#\#size,#\#Length,#\#productType
+{
+  text-align: left;
+  margin-left: 20px;
+  font-size: 19px;
+}
+.NameField{
+  font-weight: bold;
+}
+
+.\#productType{
+  font-weight: bold;
+  width: 30%;
+  font-family: 'Garamond', "Times New Roman", sans-serif;
+}
+
+#Buttons{
+  width: 11%;
+}
+#FillinForm{
+  text-align: left;
+  margin-top: -40px;
+  line-height: 50px;
+  margin-left: auto;
+  font-size: 28px;
+  width: 40%;
+  height: 100%;
+}
+#button{
+  text-align: right;
+}
+#Cancel{
+  color: #ab5b00;
+  transition: all 0.2s;
+  float: right;
+  margin-right: 50px;
+margin-top: -5px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  width: 50px;
+  height: 5px;
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+#Cancel:hover{
+  color: orange;
+}
+
+#Submit {
+  margin-top: 10px;
+  background-color: #f9ca24;
+  margin-right: 30px;
+  border: none;
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 19px;
+  font-weight: bold;
+  width: 50%;
+}
+#Submit:hover{
+  box-shadow: 0 5px 5px #a41e1e;
+  background-color: #ee9805;
+  color: #202ec9;
+}
+#productAdd {
+  font-family: 'Garamond', "Times New Roman", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 50%;
+  text-align: left;
+  font-weight: bold;
+
+}
+#OrangeBlock
+{
+  border-width: 5px;
+  border-style: outset;
+  border-color: #ee9805;
+  margin-top: 10px;
+  background-color: white;
+  height: 40px;
+  border-radius: 25px;
+  text-align: left;
+}
+
+.logo{
+  color: black;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 4px;
+  font-weight: bold;
+}
+.LogoStore{
+  color: black;
+}
+
+#split {
+  border-width: 6px;
+  border-style: outset;
+  border-color: #ee9805;
+  border-radius: 25px;
+    background-color: white;
+  margin-top: 30px;
+  margin-left: 15%;
+  width: 75%;
+  height: 95%;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+#rightSplit{
+  right: 0;
+
+}
+#slika{
+  max-width: 100%;
+  height: 420px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+#scandiTestAssignment
+{
+  margin-top: -30px;
+  font-size: 16px;
+
+}
+footer{
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+.Description{
+  text-align: center;
+  font-size: 15px;
+  line-height: 10px;
+}
+
+
+
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  border-right: solid 3px ;
+  border-image: linear-gradient(to bottom,#818181 , #ff8000) 0 1;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.name{
+  position: absolute;
+  bottom: 75px;
+  left: 3px;
+  font-size: 17px;
+  color: black;
+}
+#smallLogo{
+  color: #818181;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+a{
+  color: #074275;
+  text-decoration: none;
+}
+a:hover{
+  color: #0909d0;
+}
+#href{
+  transition: all 0.2s;
+  font-size: 20px;
+  margin-right: 83px;
+  margin-top: 15px;
+  text-align: right;
+  word-spacing: 1px;
+}
+#href.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.NavBar {
+
+  overflow: hidden;
+}
+.NavBar {
+
+  font-family: 'Garamond', "Times New Roman", sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  border: none;
+  background: transparent;
+  text-decoration-line: underline;
+  box-sizing: border-box;
+  float: left;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+.NavBar:hover {
+  background-color: rgba(238, 185, 18, 0.96);
+  box-shadow: 0 5px 5px #a95b02;
+  color: #fff100;
+}
+.NavBar:active {
+  background-color: #2196F3;
+  color: white;
+}
+
+
+.PageScroll{
+  margin-bottom: -10px;
+}
+
+.line{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.lineBottom{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin-bottom: 410px;
+}
+

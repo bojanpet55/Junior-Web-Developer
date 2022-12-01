@@ -1,0 +1,306 @@
+head {
+text-align: center;
+  font-family: 'Garamond', "Times New Roman", sans-serif;
+}
+.Name{
+  font-size: 40px;
+  letter-spacing: -3px;
+}
+
+/*_____________________________NAME,TITLE_____________________________________________________________________________`*/
+#Title{
+  font-family: 'Garamond', "Times New Roman", sans-serif;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+  margin-left: 100px;
+}
+/*_____________________________background_____________________________________________________________________________`*/
+body {
+  font-family: 'Garamond', "Times New Roman", sans-serif;
+  background-image: url("includes/images/shoppingcart-1066110386.png");
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  height: 97.9vh;
+  font-size: 68px;
+  jsutify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  overflow: hidden;
+
+
+}
+/*_____________________________ADD/DELETE BUTTONS_____________________________________________________________________`*/
+#add-product-btn,#delete-product-btn{
+  display: inline-block;
+  border: none;
+  background: transparent;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Garamond', "Times New Roman", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #074275;
+  text-align: center;
+  transition: all 0.2s;
+  word-spacing: 1px;
+
+}
+#add-product-btn:hover,#delete-product-btn:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+@media all and (max-width:30em){
+  #add-product-btn {
+    display:block;
+    margin:0.4em auto;
+   }
+}
+
+#NavButtons {
+  color: #074275;
+
+  margin-bottom: 20px ;
+  margin-left: 1050px;
+  margin-top: -50px ;
+}
+/*_____________________________footer_______________________________________________________________________`*/
+footer{
+  font-family: 'Garamond', "Times New Roman", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 15px;
+  width: 190vh;
+  height: 80px;
+  color: white;
+  justify-content: right;
+  margin-right: 300px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+#scandiTestAssignment {
+  font-family: 'Garamond', "Times New Roman", sans-serif;
+  font-size: 18px;
+  margin-top: -30px;
+
+}
+/*_________________________________A links__________________________________________________________________________`*/
+a{
+  color: #074275;
+  text-decoration: none;
+}
+a:hover{
+  color: #0909d0;
+}
+#href{
+  transition: all 0.2s;
+  font-size: 20px;
+  margin-right: 83px;
+  margin-top: 15px;
+  text-align: right;
+  word-spacing: 1px;
+}
+#href.active {
+  background-color: #2196F3;
+  color: white;
+}
+/*_____________________________contact,about,home____________________________________________________________________`*/
+* {box-sizing: border-box;}
+.topnav {
+
+  overflow: hidden;
+}
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+/*____________________________________________________________________________________________________________________`*/
+
+
+
+
+
+.product{
+  background-color: rgb(248, 248, 237);
+  font-size:5px;
+  border: solid #ffc415 5px;
+  border-radius: 22%;
+  margin-left: 15px;
+  padding: 1em;
+  box-shadow: 0 10px 5px dimgrey;
+  text-align: center;
+  width: 200px;
+  height: 170px;
+
+
+}
+.title{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.text{
+  margin-top: -25%;
+  font-size: 10px;
+}
+.image{
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+  margin: 15px auto -60px 15%;
+}
+.price{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.slika{
+  width: 200px;
+  height: 200px;
+  align-items: center;
+}
+
+
+.buy-button{
+  background-color: #f9ca24;
+  border: none;
+  padding: 1em;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 80%;
+}
+.buy-button:hover{
+  box-shadow: 0 5px 5px dimgrey;
+  color: #202ec9;
+}
+
+.test{
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  display: grid;
+}
+
+.product-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 40px;
+}
+
+.top{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+
+
+
+
+.Product-List{
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  display: grid;
+  grid-template-rows: repeat(5, 200px);
+  grid-auto-rows: 50px;
+  grid-gap: 70px;
+  width: 100%;
+}
+
+/*sus*/
+.horizontal_scroll1,.horizontal_scroll2{
+  opacity: 98%;
+  width: 80%;
+  height: 100%;
+  margin-left: 150px;
+  border: solid 1px #2d1b09;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(233,250,19,1) 0%, rgba(192,188,54,1) 11%, rgba(217,227,85,1) 30%, rgba(199,215,96,1) 50%, rgba(231,229,68,1) 69%, rgba(253,187,45,1) 100%);
+  display: flex;
+border-radius: 25px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.story-container1,.story-container2
+{
+
+  grid-template-columns: repeat(5, 90px);
+  grid-auto-rows: 50px;
+  grid-gap: 10px;
+  position: absolute;
+  left: 0;
+  transition: 0.5s all ease-out;
+  display: inline-flex;
+  justify-content: center;
+
+}
+
+.btn-scroll1,.btn-scroll2
+{
+
+  height: 18%;
+  border: #a86b0d solid 2px;
+  background-color: white;
+  padding: 5px 10px ;
+  border-radius: 50%;
+  margin: 5px 5px;
+  opacity: 50%;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.header5{
+  margin-left: 22px;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-bottom: -180px;
+  text-align: right;
+
+}
+.header4{
+  font-weight: bold;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-top: -73%;
+  text-align: right;
+}

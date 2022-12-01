@@ -1,0 +1,24 @@
+Greatings Sir / Madame,
+
+Let me say the project is not made in OOP design mainly due to TIME.
+
+I had some OOP implemented but had to scratch it as I had already done most of the website before I even checked that it needed to be OOP.
+
+I did include the OOP files as well as most of the files that I wrote.
+
+I also had 3-4 extra pages for the website, but had to disable them for the QA tester ( They are the Product Deleted and Product 
+Submitted pages ).
+
+THE QA Did not recognize most of the IDS for some reason even though, they are as asked for, Soo intern the QA did not give me a 100% Finished work.
+
+I Still decided to submit it because I am capable of solving the problems if I just had more time.
+
+I know You insured me there was no time limit, I felt necessary to upload it as soon as possible.
+
+Thank you for your time.
+
+
+With Regards
+Bojan Petrushevski 
+
+PS: I have few versions of the website, let me know if you need different design examples.

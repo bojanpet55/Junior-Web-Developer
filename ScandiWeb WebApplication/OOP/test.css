@@ -1,0 +1,27 @@
+
+.body
+{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.horizontal_scroll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+.test{
+  width: 600px;
+  height: 88px;
+  background-color: #ffecec;
+  border: 1px solid green;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
